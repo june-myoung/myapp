@@ -1,0 +1,12 @@
+<template name="board">
+	<h1>hello world</h1>
+	<table>
+		{{#each list in lists}}
+			<tr>
+				<td>{{@index}} {{list.name}}</td>
+				<td>{{list.age}}</td>
+				<td>{{list.number}}</td>
+			</tr>
+		{{/each}}
+	</table>
+</template>
